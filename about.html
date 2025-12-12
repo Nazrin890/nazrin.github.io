@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Me - My Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo">✨ My Site</div>
+
+            <ul class="nav-menu" id="primary-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active" aria-current="page">About Me</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="diaries.html" class="nav-link">ADA Diaries</a></li>
+            </ul>
+
+            <button class="hamburger" aria-label="Toggle menu" aria-controls="primary-menu" aria-expanded="false">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main id="main">
+        <header class="page-header">
+            <h1>About Me</h1>
+            <p>Get to know me better</p>
+        </header>
+
+        <section class="about-content" aria-labelledby="story-heading">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 id="story-heading">My Story</h2>
+                    <p>Hello! I'm a passionate creative professional with a unique blend of skills in web development, design, and content creation. My journey has been filled with exciting challenges and meaningful projects that have shaped who I am today.</p>
+                    <p>I believe in creating beautiful, functional, and user-centered solutions. Whether it's a website, an app, or a creative project, I always strive to make something that brings joy and value to users.</p>
+                    <p>When I'm not working on projects, I love journaling, exploring new technologies, and connecting with like-minded individuals. I'm always eager to learn, grow, and collaborate on exciting opportunities.</p>
+                </div>
+
+                <figure class="about-image-wrap" aria-hidden="false">
+                    <img
+                        src="nazrin.jpg"
+                        alt="Portrait of Nazrin"
+                        class="about-image about-image--round"
+                        width="320"
+                        height="320"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <figcaption class="visually-hidden">Portrait photo of Nazrin</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="skills-section" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Skills &amp; Expertise</h2>
+            <div class="skills-grid">
+                <article class="skill-card" aria-labelledby="design-heading">
+                    <h3 id="design-heading">🎨 Design</h3>
+                    <p>UI/UX Design, Branding, Visual Design</p>
+                </article>
+
+                <article class="skill-card" aria-labelledby="dev-heading">
+                    <h3 id="dev-heading">💻 Development</h3>
+                    <p>HTML, CSS, JavaScript, Web Development</p>
+                </article>
+
+                <article class="skill-card" aria-labelledby="content-heading">
+                    <h3 id="content-heading">📝 Content</h3>
+                    <p>Writing, Storytelling, Blogging</p>
+                </article>
+
+                <article class="skill-card" aria-labelledby="strategy-heading">
+                    <h3 id="strategy-heading">🚀 Strategy</h3>
+                    <p>Project Planning, Problem Solving</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="interests-section" aria-labelledby="interests-heading">
+            <h2 id="interests-heading">Interests</h2>
+            <div class="interests-list" role="list">
+                <span class="interest-tag" role="listitem">Web Design</span>
+                <span class="interest-tag" role="listitem">Photography</span>
+                <span class="interest-tag" role="listitem">Journaling</span>
+                <span class="interest-tag" role="listitem">Technology</span>
+                <span class="interest-tag" role="listitem">Travel</span>
+                <span class="interest-tag" role="listitem">Creative Writing</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <p>&copy; 2025 My Personal Website. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" class="social-link" rel="noopener noreferrer">Twitter</a>
+            <a href="#" class="social-link" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#" class="social-link" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
