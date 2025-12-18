@@ -31,44 +31,21 @@
         </section>
 
         <section class="projects-showcase">
-
-            <!-- Project 1: Logic Gates on a Breadboard -->
             <div class="project-detail-card">
-                <img src="images/project-1.jpg" alt="Logic Gates on a Breadboard">
+                <img src="images/project-1.jpg" alt="Project 1">
                 <div class="project-info">
-                    <h3>Logic Gates on a Breadboard</h3>
-                    <p class="project-category">Electronics / Hardware</p>
-                    <p class="project-team"><strong>Team:</strong> Team23</p>
-                    <p class="project-description">This project involved constructing basic logic gates with transistors, LEDs, wires, and a breadboard. We collaborated as a team to build the circuit and show how logic gates function in real-world applications.</p>
-
+                    <h3>Project One</h3>
+                    <p class="project-category">Web Development</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. This project demonstrates my ability to create engaging and functional web experiences.</p>
                     <div class="project-tags">
-                        <span class="tag">Electronics</span>
-                        <span class="tag">Breadboard</span>
-                        <span class="tag">Logic Gates</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
                     </div>
-
-                    <!-- Local video -->
-                    <div class="project-media">
-                        <video class="project-video" controls playsinline poster="images/project-1.jpg">
-                            <source src="videos/video.mp4" type="video/mp4">
-                            Your browser does not support the video tag. Download the video <a href="videos/video.mp4">here</a>.
-                        </video>
-
-                        <!-- YouTube embed + link -->
-                        <div class="youtube-embed" aria-hidden="false">
-                            <iframe src="https://www.youtube.com/embed/SkQbOcOEohQ?si=np25yAsiN1DkFAxp"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            <p><a href="https://youtu.be/SkQbOcOEohQ?si=np25yAsiN1DkFAxp" target="_blank" rel="noopener">Watch on YouTube</a></p>
-                        </div>
-                    </div>
-
                     <a href="#" class="secondary-button">View Project</a>
                 </div>
             </div>
 
-            <!-- Existing Project Two (kept as-is) -->
             <div class="project-detail-card reverse">
                 <img src="images/project-2.jpg" alt="Project 2">
                 <div class="project-info">

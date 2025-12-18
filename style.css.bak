@@ -641,32 +641,3 @@ main {
         padding: 1.5rem 1rem;
     }
 }
-/* Project media (local video + YouTube embed) */
-.project-media {
-  display: grid;
-  gap: 1rem;
-  margin: 1.25rem 0;
-}
-
-.project-video {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
-
-.youtube-embed iframe {
-  width: 100%;
-  height: 360px;
-  border-radius: 12px;
-  border: 0;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
-
-/* stack and scale for small screens */
-@media (max-width: 600px) {
-  .youtube-embed iframe {
-    height: 220px;
-  }
-}
