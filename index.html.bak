@@ -51,7 +51,8 @@
     <footer class="footer">
         <p>&copy; 2025 My Personal Website. All rights reserved.</p>
         <div class="social-links">
-            <a href="#" class="social-link">Codeacademy</a>
+            <a href="#" class="social-link">Twitter</a>
+            <a href="#" class="social-link">LinkedIn</a>
             <a href="#" class="social-link">GitHub</a>
         </div>
     </footer>

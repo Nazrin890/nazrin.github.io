@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - My Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo">✨ My Site</div>
+
+            <ul class="nav-menu" id="primary-menu">
+                <li><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Me</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="diaries.html" class="nav-link">ADA Diaries</a></li>
+            </ul>
+
+            <button class="hamburger" aria-label="Toggle menu" aria-controls="primary-menu" aria-expanded="false">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main id="main">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content">
+                <img
+                    src="nazrin.jpg"
+                    alt="Portrait of Nazrin"
+                    class="hero-image"
+                    width="160"
+                    height="160"
+                    loading="lazy"
+                    decoding="async"
+                />
+                <h1 id="hero-heading">Welcome to My World</h1>
+                <p class="hero-sub">Creative, curious, and always learning — Math &amp; poetry lover</p>
+                <div class="hero-actions">
+                    <a href="#about-preview" class="cta-button">Explore More</a>
+                    <a href="projects.html" class="secondary-button">See Projects</a>
+                </div>
+            </div>
+
+            <img src="profil.jpeg" alt="Profile" class="preview-image" />
+        </section>
+
+        <section id="about-preview" class="preview-section" aria-labelledby="about-preview-heading">
+            <h2 id="about-preview-heading">Quick About Me</h2>
+            <div class="preview-content">
+                <img src="cute.jpeg" alt="Profile" class="preview-image" />
+                <div class="preview-text">
+                    <p>Hi — I'm Nazrin. I'm a Math student at ADA University who loves solving challenging problems and writing poetry in between. I build small, thoughtful web projects and enjoy journaling about learning and creativity.</p>
+                    <a href="about.html" class="secondary-button">Learn More About Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-projects" aria-labelledby="featured-projects-heading">
+            <h2 id="featured-projects-heading">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/project-1.jpg" alt="Project 1" />
+                    <h3>Project One</h3>
+                    <p>A small creative project demonstrating design and interactivity.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/project-2.jpg" alt="Project 2" />
+                    <h3>Project Two</h3>
+                    <p>An exploration of responsive UI and thoughtful UX patterns.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/project-3.jpg" alt="Project 3" />
+                    <h3>Project Three</h3>
+                    <p>Creative coding experiments with animation and interaction.</p>
+                </div>
+            </div>
+
+            <div style="text-align:center; margin-top:1.5rem;">
+                <a href="projects.html" class="secondary-button">View All Projects</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <p>&copy; 2025 My Personal Website. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" class="social-link" rel="noopener noreferrer">Twitter</a>
+            <a href="#" class="social-link" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#" class="social-link" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
