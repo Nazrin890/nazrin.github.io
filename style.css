@@ -776,3 +776,133 @@ main {
   .social-icon, .social-text { width: 40px; height: 40px; }
   .social-text { padding: 0.2rem 0.5rem; font-size: 0.95rem; }
 }
+/* Diary-style image section — minimal, clean, non-rounded */
+.diary-images {
+  max-width: 1100px;
+  margin: 2.5rem auto;
+  padding: 1.25rem;
+}
+
+.diary-images h2 {
+  color: var(--primary-pink);
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* Grid layout with spacing */
+.diary-images-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  align-items: start;
+}
+
+/* Each item */
+.diary-image-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+/* Image: NO border-radius (per requirement), subtle shadow */
+.diary-image-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(10, 10, 12, 0.06);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  display: block;
+}
+
+/* Hover/Focus: gentle lift */
+.diary-image-item img:hover,
+.diary-image-item img:focus {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 36px rgba(10, 10, 12, 0.09);
+  outline: none;
+}
+
+/* Emotional, personal caption styling */
+.diary-caption {
+  margin: 0;
+  color: rgba(33,37,41,0.85);
+  font-style: italic;
+  font-size: 0.96rem;
+  line-height: 1.35;
+  padding-right: 0.4rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+  .diary-image-item img { height: 180px; }
+}
+
+@media (max-width: 480px) {
+  .diary-images {
+    padding: 0.75rem;
+  }
+  .diary-image-item img { height: 140px; }
+  .diary-images h2 { text-align: center; font-size: 1.3rem; }
+}
+[PASTE THE CSS SNIPPET FROM ABOVE HERE]
+[PASTE THE CSS SNIPPET FROM ABOVE HERE]
+[PASTE THE CSS SNIPPET FROM ABOVE HERE]
+
+/* Minimal diary image section — no rounded corners, soft shadows, spaced, responsive */
+.diary-images {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.diary-images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+/* Item layout */
+.diary-image-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+/* Image: NO border-radius; subtle shadow; clean look */
+.diary-image-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(10, 10, 12, 0.06);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  display: block;
+  border-radius: 0; /* enforce no rounding */
+}
+
+/* Hover / focus: gentle lift */
+.diary-image-item img:hover,
+.diary-image-item img:focus {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 36px rgba(10, 10, 12, 0.09);
+  outline: none;
+}
+
+/* Emotional/personal captions (minimal, subtle) */
+.diary-caption {
+  margin: 0;
+  color: rgba(33, 37, 41, 0.85);
+  font-style: italic;
+  font-size: 0.96rem;
+  line-height: 1.35;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .diary-image-item img { height: 200px; }
+}
+
+@media (max-width: 480px) {
+  .diary-images { padding: 0 0.6rem; margin: 2rem auto; }
+  .diary-image-item img { height: 140px; }
+}
