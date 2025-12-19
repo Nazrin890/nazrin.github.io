@@ -844,12 +844,7 @@ main {
   }
   .diary-image-item img { height: 140px; }
   .diary-images h2 { text-align: center; font-size: 1.3rem; }
-}
-[PASTE THE CSS SNIPPET FROM ABOVE HERE]
-[PASTE THE CSS SNIPPET FROM ABOVE HERE]
-[PASTE THE CSS SNIPPET FROM ABOVE HERE]
-
-/* Minimal diary image section — no rounded corners, soft shadows, spaced, responsive */
+}/* Minimal diary image section — no rounded corners, soft shadows, spaced, responsive */
 .diary-images {
   max-width: 1100px;
   margin: 3rem auto;
@@ -905,4 +900,8 @@ main {
 @media (max-width: 480px) {
   .diary-images { padding: 0 0.6rem; margin: 2rem auto; }
   .diary-image-item img { height: 140px; }
-}
+} 
+ 
+
+
+
