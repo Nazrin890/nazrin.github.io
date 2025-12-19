@@ -1,8 +1,8 @@
 :root {
-    --primary-pink: #653e13;
-    --light-pink: #e19146;
-    --pale-pink: #ffe4f0;
-    --dark-pink: #492701;
+    --primary-pink: #10730d;
+    --light-pink: #87e146;
+    --pale-pink: #b1fd88;
+    --dark-pink: #214901;
     --white: #ffffff;
     --gray: #f8f9fa;
     --dark-gray: #495057;
@@ -901,7 +901,30 @@ main {
   .diary-images { padding: 0 0.6rem; margin: 2rem auto; }
   .diary-image-item img { height: 140px; }
 } 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+
  
+ 
+
+
 
 
 
