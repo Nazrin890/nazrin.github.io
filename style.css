@@ -1006,6 +1006,29 @@ main {
   color: white;
   align-self: flex-end;
 }
+/* ===== FOOTER MOBILE FIX ===== */
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap; /* IMPORTANT */
+}
+
+.footer-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+/* Mobile: stack links vertically */
+@media (max-width: 480px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
 
  
  
