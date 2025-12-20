@@ -68,3 +68,12 @@ document.querySelectorAll('.project-card, .skill-card, .diary-entry').forEach(el
     element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     observer.observe(element);
 });
+
+function openMenu() {
+  document.getElementById("mobileMenu").classList.add("show");
+}
+
+function closeMenu() {
+  document.getElementById("mobileMenu").classList.remove("show");
+}
+

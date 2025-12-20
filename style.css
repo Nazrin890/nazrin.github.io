@@ -919,7 +919,93 @@ main {
     gap: 12px;
   }
 }
+/* =========================
+   MOBILE MENU
+========================= */
 
+#mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  transform: translateY(-100%);
+  transition: transform 0.4s ease;
+  z-index: 2000;
+}
+
+
+#mobilemenu a {
+  color: white;
+  font-size: 22px;
+  margin: 14px 0;
+  text-decoration: none;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+  }
+}
+
+@media (min-width: 769px) {
+  #mobilemenu {
+    display: none;
+  }
+}
+
+/* MOBILE MENU – BOTTOM SLIDE */
+.mobile-menu {
+  position: fixed;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 60vh;
+  background: #111;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: bottom 0.35s ease;
+  z-index: 999;
+  border-radius: 20px 20px 0 0;
+}
+
+/* SHOW */
+.mobile-menu.show {
+  bottom: 0;
+}
+
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.close-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  align-self: flex-end;
+}
 
  
  
