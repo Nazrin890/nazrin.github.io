@@ -1035,10 +1035,18 @@ footer {
   align-items: center;
   gap: 10px; /* yazılar arası boşluq */
 }
- 
- 
 
+footer {
+  display: flex;
+  flex-direction: column; /* HƏMİŞƏ alt-alta */
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
 
-
-
-
+footer a {
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
